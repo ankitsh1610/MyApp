@@ -50,7 +50,7 @@ public class CryptoUtil {
             byte[] outputBytes = cipher.doFinal(inputBytes);
 */
             FileOutputStream outputStream = new FileOutputStream(outputFile);
-           // outputStream.write(outputBytes);
+           // outputStream.write(outputBytes); this is changed
 
             byte[] plainBuf = new byte[8192];
             try {
